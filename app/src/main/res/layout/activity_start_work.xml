@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity">
+
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <TextView
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/startWorkTitleMessage"
+            android:text="@string/startWorkTitleText"
+            android:singleLine="true"
+            android:textStyle="bold"
+            android:gravity="center"></TextView>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="4dp"
+            android:visibility="invisible">
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:id="@+id/passwordLabel"
+                android:text="@string/passwordLabelText"
+                android:gravity="right"
+                android:paddingRight="5dp"></TextView>
+
+            <EditText
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:id="@+id/passwordField"
+                android:singleLine="true"></EditText>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/zoneByHand"
+            android:gravity="center"
+            android:layout_weight="1">
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/zoneByHantCBoxTxt"
+                android:id="@+id/checkBoxZoneByHand"
+                android:layout_weight="1"
+                android:checked="false"
+                android:elegantTextHeight="false" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/TableRowBalance">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/youBalanseIs"
+                android:id="@+id/textViewYouBallance"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_weight="1"
+                android:elegantTextHeight="true"
+                android:gravity="left"
+                android:singleLine="true" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/textDrvBalanceValue"
+                android:id="@+id/textViewDrvBalance"
+                android:layout_weight="0.5"
+                android:singleLine="true"
+                android:autoText="false" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/currency"
+                android:id="@+id/currency"
+                android:singleLine="true"
+                android:layout_weight="0.4" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/loginMessage"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/loginMessageText2"
+                android:text="@string/choisePaymentText"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:singleLine="true"></TextView>
+        </TableRow>
+
+        <RadioGroup
+            android:id="@+id/radioButtonGroupPayment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/tableRow41"
+                android:focusableInTouchMode="true">
+
+                <RadioButton
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/wilPayByOrder"
+                    android:id="@+id/radioButtonByOrder"
+                    android:checked="true"
+                    android:layout_weight="1" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="@string/byOrderText"
+                    android:id="@+id/byOrderTextField"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/priceByOrder"
+                    android:text="0"
+                    android:singleLine="true"
+                    android:gravity="right"
+                    android:layout_weight="0.2"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:id="@+id/currency0"
+                    android:text="@string/currency"
+                    android:layout_weight="0.5"
+                    android:phoneNumber="false" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/tableRow4"
+                android:focusableInTouchMode="false"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="@string/wilPayByOrderNight"
+                    android:id="@+id/byOrderTextFieldNight"
+                    android:layout_weight="1"
+                    android:singleLine="true" />
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/priceByOrderNight"
+                    android:text="0"
+                    android:singleLine="true"
+                    android:gravity="right"
+                    android:layout_weight="0.2"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:inputType="text" />
+
+                <TextView
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:id="@+id/currencyNight"
+                    android:text="@string/currency"
+                    android:layout_weight="0.5"
+                    android:phoneNumber="false"
+                    android:gravity="fill_horizontal" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/tableRow5"
+                android:longClickable="true">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/wilPayByShift"
+                    android:id="@+id/radioButtonByShift" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/byShiftTextField"
+                    android:id="@+id/byShiftTextField"
+                    android:layout_weight="1"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/priceByShift"
+                    android:text="0"
+                    android:layout_weight="0.2"
+                    android:gravity="right"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/currency"
+                    android:id="@+id/currensy1"
+                    android:singleLine="true"
+                    android:layout_weight="0.5" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/tableRow6">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/wilPayByHourlu"
+                    android:id="@+id/radioButtonByHourly" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/byHourTextField"
+                    android:id="@+id/byHourTextField"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:id="@+id/priceByHour"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_weight="0.2"
+                    android:gravity="right" />
+
+                <TextView
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="@string/currency"
+                    android:id="@+id/currency3"
+                    android:layout_weight="0.5" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/TAbleRow6_1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/doOrder"
+                    android:id="@+id/textViewOrdHour"
+                    android:visibility="invisible" />
+
+                <EditText
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:id="@+id/ammountHours"
+                    android:text="1"
+                    android:layout_gravity="center"
+                    android:gravity="right"
+                    android:paddingRight="5dp"
+                    android:autoText="false"
+                    android:visibility="invisible" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/ammountHoursText"
+                    android:id="@+id/tammountHourTextFild"
+                    android:layout_weight="2"
+                    android:gravity="center|clip_vertical"
+                    android:visibility="invisible" />
+
+            </TableRow>
+
+        </RadioGroup>
+
+        <TableRow
+            android:id="@+id/tableRow7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btnStartWork"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/startwork"
+                android:textSize="20sp"
+                android:clickable="false"
+                style="@style/taxoButton"
+                android:layout_weight="1"></Button>
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btnChangeServerAndDs"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/changeSetting"
+                android:textSize="20sp"
+                android:singleLine="false"
+                style="@style/taxoButton"></Button>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/TableRow9">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/exitButonText"
+                android:id="@+id/btnExit"
+                style="@style/taxoButton"
+                android:layout_weight="1" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/cheskUpdateTR">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/checkUpdateProgram"
+                android:id="@+id/buttonCheckUpdate"
+                style="@style/taxoButton"
+                android:layout_weight="1" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:visibility="invisible">
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:id="@+id/loginLabel"
+                android:text="@string/loginLabelText"
+                android:layout_gravity="center"
+                android:gravity="right"
+                android:paddingRight="5dp"
+                android:autoText="false"></TextView>
+
+            <EditText
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:id="@+id/loginField"
+                android:autoText="false"
+                android:singleLine="true">
+
+                <requestFocus></requestFocus>
+            </EditText>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible">
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:id="@+id/carLabel"
+                android:text="@string/carLabelText"
+                android:gravity="right"
+                android:paddingRight="5dp"></TextView>
+
+            <EditText
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:id="@+id/carField"></EditText>
+        </TableRow>
+
+    </TableLayout>
+</ScrollView>

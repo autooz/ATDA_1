@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal" android:layout_width="fill_parent"
+        android:layout_height="fill_parent" android:layout_gravity="center"
+        android:layout_alignParentTop="true">
+
+
+        <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical" android:layout_width="fill_parent"
+            android:layout_height="fill_parent" android:layout_weight="0.5">
+            <TableRow android:id="@+id/tableRow1" android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="TextView" android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/firmNameLabel"
+                    android:textSize="20sp"
+                    ></TextView>
+            </TableRow>
+            <TableRow android:id="@+id/tableRow2" android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center">
+                <TextView android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/driverTarif" android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/tariffNameLabel"
+                    android:textSize="30sp"
+                    android:textColor="#ff2331"
+                    android:gravity="center|fill_vertical"></TextView>
+            </TableRow>
+            <TableRow android:id="@+id/tableRow3" android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_height="wrap_content" android:id="@+id/callLabel"
+                    android:text="@string/callLabelText" android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:textSize="20sp"></TextView>
+                <TextView android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="TextView" android:layout_height="wrap_content"
+                    android:id="@+id/callPriceLabel" android:layout_weight="0.5"
+                    android:layout_width="0dp"
+                    android:textSize="20sp"></TextView>
+            </TableRow>
+            <TableRow android:id="@+id/tableRow4" android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_height="wrap_content" android:id="@+id/minimalLabel"
+                    android:text="@string/minimalLabelText" android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:textSize="20sp"></TextView>
+                <TextView android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="TextView" android:layout_height="wrap_content"
+                    android:id="@+id/minimalPriceLabel" android:layout_weight="0.5"
+                    android:layout_width="0dp"
+                    android:textSize="20sp"></TextView>
+            </TableRow>
+            <TableRow android:id="@+id/tableRow5" android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_height="wrap_content" android:id="@+id/kmLabel"
+                    android:text="@string/kmLabelText" android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:textSize="20sp"></TextView>
+                <TextView android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="TextView" android:layout_height="wrap_content"
+                    android:id="@+id/kmPriceLabel" android:layout_weight="0.5"
+                    android:layout_width="0dp"
+                    android:textSize="20sp"></TextView>
+            </TableRow>
+            <TableRow android:id="@+id/tableRow6" android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_height="wrap_content" android:id="@+id/minuteLabel"
+                    android:text="@string/minuteLabelText" android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:textSize="20sp"></TextView>
+                <TextView android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="TextView" android:layout_height="wrap_content"
+                    android:id="@+id/minutePriceLabel" android:layout_weight="0.5"
+                    android:layout_width="0dp"
+                    android:textSize="20sp"></TextView>
+            </TableRow>
+            <TableRow android:id="@+id/tableRow7" android:layout_height="wrap_content"
+                android:paddingLeft="5dp" android:layout_width="wrap_content"
+                android:paddingRight="5dp">
+                <View android:layout_span="1" android:background="#333333"
+                    android:layout_marginTop="1dip" android:layout_marginBottom="1dip"
+                    android:layout_width="fill_parent" android:layout_height="2dp"
+                    android:layout_weight="1" android:paddingRight="5dp"
+                    android:textSize="20sp"/>
+            </TableRow>
+            <TableRow android:id="@+id/tableRow8" android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_height="wrap_content" android:id="@+id/totalKmLabelStatic"
+                    android:text="@string/totalKmLabelStaticText" android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:textSize="20sp"></TextView>
+                <TextView android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="TextView" android:layout_height="wrap_content"
+                    android:id="@+id/totalKmLabel" android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:textSize="20sp"></TextView>
+            </TableRow>
+            <TableRow android:id="@+id/tableRow9" android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_height="wrap_content" android:id="@+id/totalMinutesLabelStatic"
+                    android:text="@string/totalMinutesLabelStaticText"
+                    android:layout_weight="1" android:layout_width="0dp"
+                    android:textSize="20sp"></TextView>
+                <TextView android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="TextView" android:layout_height="wrap_content"
+                    android:id="@+id/totalMinutesLabel" android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:textSize="20sp"></TextView>
+            </TableRow>
+            <TableRow android:id="@+id/tableRow10" android:layout_height="wrap_content"
+                android:paddingLeft="5dp" android:layout_width="wrap_content"
+                android:paddingRight="5dp">
+                <View android:layout_span="1" android:background="#333333"
+                    android:layout_marginTop="1dip" android:layout_marginBottom="1dip"
+                    android:layout_width="fill_parent" android:layout_height="2dp"
+                    android:layout_weight="1" android:paddingRight="5dp" />
+            </TableRow>
+            <TableRow android:id="@+id/tableRow11" android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <!-- totalcost -->
+            </TableRow>
+
+        </TableLayout>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="horizontal" android:layout_width="152dp"
+            android:layout_height="fill_parent" android:layout_gravity="center">
+            <TextView android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="0" android:layout_width="wrap_content" android:id="@+id/totalCostLabel" android:textSize="80sp"
+                android:layout_height="wrap_content" android:layout_weight="0.5" android:layout_gravity="center|right" android:gravity="right"></TextView>
+            <TextView android:textAppearance="?android:attr/textAppearanceSmall"
+                android:id="@+id/totalCostLabelStatic"
+                android:layout_height="wrap_content" android:layout_width="wrap_content" android:gravity="center" android:layout_gravity="center"
+                android:singleLine="true"
+                android:textSize="30sp"></TextView>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal" android:layout_width="fill_parent"
+        android:layout_height="wrap_content" android:layout_gravity="center"
+        android:layout_alignParentBottom="true">
+        <Button android:layout_height="wrap_content" android:id="@+id/taxometerMenuButton"
+            android:text="@string/startTaximetre" android:layout_width="fill_parent"
+            android:layout_gravity="center|bottom" android:textSize="20sp"
+            android:layout_weight="0.5"></Button>
+        <Button android:layout_height="wrap_content" android:id="@+id/showOrdersButton"
+            android:text="@string/changeStop" android:layout_width="wrap_content"
+            android:layout_gravity="center|bottom" android:textSize="20sp"></Button>
+    </LinearLayout>
+
+</ScrollView>

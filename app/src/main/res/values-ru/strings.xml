@@ -1,0 +1,379 @@
+<resources>
+    <string name="title_activity_whot_is_tet_atet">WhotIsTetAtetActivity</string>
+    <string name="title_activity_iwant_tet_atte">IwantTetAtteActivity</string>
+    <string name="title_activity_contact_info">ContactInfoActivity</string>
+    <string name="app_name">ATDA</string>
+    <string name="action_settings">Настройки</string>
+    <string name="app_title">Tet-A-Tet для заказчиков</string>
+    <string name="title_activity_firs_start_page">Tet-a-Tet для водителей</string>
+    <string name="license_title">ПОЛЬЗОВАТЕЛЬСКОЕ СОГЛАШЕНИЕ\n</string>
+    <string name="currency">\ RUR</string>
+    <string name="license_content">Производитель APP:\n
+        ЧП Жабко Олег Леонидович\n
+        г.Бердичв,\n Украина
+        Тел:+38 (067)411-98-75
+        \n\n ВНИМАНИЕ: Программа имеет открытый исходный код, распространяется безвозмездно. За пользование программы вознаграждение не требуется.\n
+        \n
+
+Вы знаете и соглашаетесь с том, что:\n
+A) Эта программа является совместной собственностью ООО «Радиотакси «Элит»», ЧП «Бердичевская Электронная Служба Такси» и частных лиц.\n
+B) Владельцы дают вам только два права:\n
+1- Право использовать программу без ограничения, но в соответствии с законодательством\n
+2- Право бесплатно распространять программу любым тиражем \n
+\n
+Собственники запрещают Вам:\n
+1- Декомпилировать программу и/или изменять Copirights.\n
+        Если нужно изменить программный код, просто обратитесь к владельцам и получите исходники - код Open Source\n\n
+ОТВЕТСТВЕННОСТЬ\n
+Вы понимаете, и соглашаетесь с тем , что владельцы не несут ответственность за ущерб который может быть причинен в результате работы или в результате сбоя программы.\n
+Вы будете использовать программу на свой страх и риск\n\n
+Вы берете на себя обязательство уведомлять владельцев программы о случаях когда за эту программу или за ее пользование требуют вознаграждение или было нарушено данное Соглашение пользователя.\n
+Добровольное пожертвование производителю на развитие программы приветствуется. \n
+
+ Контактная информация:\n
+site: http://tet-a-tet.mobi\n
+e-mail:support@tet-a-tet.mobi\n
+phone: +38 (04143) 2-32-97\n
+cellphone: +38 (067) 411-98-75\n</string>
+    <string name="title_activity_firs_start_tet_a_tet">ОФЕРТА</string>
+    <string name="license_title_tet_a_tet">УСЛОВИЯ Tet-A-Tet\n</string>
+<string name="licence_tet_a_tet">
+Соглашаясь с настоящими условиями, Вы подтверждаете:\n
+А)\n
+1. У вас есть подзарядный адаптер питания для исключения разрядки батареи вашего мобильного устройство, на котором будет использоваться данная программа.\n
+2. Для пользования данной программой во время движения автомобиля у Вас есть устройство «Свободные руки» или устройство «Громкая связь».\n
+3. У вас есть все законные основания осуществлять перевозку пассажиров..\n
+4. Вами получены все необходимые данные для подключения к серверу Тет-А-Тет\n
+5. У Вас имеются все данные для подключения к Горячей линии.\n
+Б)\n
+
+Вы обязуетесь выполнять ПЯТЬ ПРАВИЛ :\n
+1. При пользовании услугой Тет-А-Тет Ваш телефон не может быть «Занят»\n
+2. Уезжая «От бордюра» Вы всегда снимаетесь с очереди.\n
+3. Завершая работу Вы всегда закрываете смену\n
+4.По любому непонятному событию от АТС или другим причинам, вы всегда перезваниваете заказчику.\n
+5. Вы не передаете свою «рабочую симкарту» другим людям.\n
+\n
+Вы обязуетесь придерживаться ПЯТЬ ПРАВИЛ ОБЩЕНИЯ:\n
+1. Вы всегда представляетесь своим именем или именем и отчеством.\n
+2. При звонке заказчика никогда не делайте паузу после «Ало», сразу отвечайте «Ало, Здравствуйте. Водитель свободного автомобиля в городе ."Энске" саое имя или имя и отчество»\n
+3. В конце разговора о заказе вы всегда называете:\n
+-цвет автомобиля\n
+-его марку\n
+-время через которое прибудете\n
+-обязательно повторяете адрес заказчика.\n
+4.Вы всегда спокойно разъясняете ошибившемуся заказчику правильный порядок осуществления заказа. \n
+5.Вы всегда заменяете слово «Оплатить»  и его синонимы словосочетанием «Компенсировать затраты».\n
+Например:\n
+Если Вы готовы КОМПЕНСИРОВАТЬ мои дополнительные ЗАТРАТЫ на подачу автомобиля, тогда я подъеду к Вам несмотря на большое расстояние. Сумма КОМПЕНСАЦИИ составит № денег к тарифу.\n</string>
+    <string name="license_check_box_txt">Соглашение мной прочитано</string>
+    <string name="no_agree">Не принимаю</string>
+    <string name="am_agree">Принимаю</string>
+    <string name="TitleLogin">Логин</string>
+    <string name="titleCallsign">Позывной</string>
+    <string name="password">Пароль</string>
+    <string name="local">Local</string>
+    <string name="savePassword">Сохранить пароль</string>
+    <string name="ok">OK</string>
+    <string name="user_window">Окно пользователя</string>
+    <string name="text_View">Просмотр</string>
+    <string name="tarif">Тариф</string>
+    <string name="posadka">Посадка</string>
+    <string name="minCost">Минималка</string>
+    <string name="kmCost">За километр</string>
+    <string name="minuteCostStay">Цена минуты простоя</string>
+    <string name="minKmCost">Сколько км вкючено в минималку</string>
+    <string name="minuteMinCost">Сколько минут включено в минималку</string>
+    <string name="countryCost">Загородняя цена в одну сторону</string>
+    <string name="countryBackCost">Загодняя цена в два конца</string>
+    <string name="minSpeed">Минимальная скорость перехода на простой</string>
+    <string name="add">Добавить</string>
+    <string name="settings">Настройки</string>
+    <string name="drivers">Водители</string>
+    <string name="serverConnect">Сервер для подключения</string>
+    <string name="mode">Режим</string>
+    <string name="polugons">Полигоны или сектора</string>
+    <string name="tariff">Тарифы</string>
+    <string name="exit">Выход</string>
+    <string name="polygonInfo">Описание полигона</string>
+    <string name="namePolygon">Название полигона</string>
+    <string name="polygonValue">Значение полигона</string>
+    <string name="listDrivers">Список водителей</string>
+    <string name="change">Изменить</string>
+    <string name="delete">Удалить</string>
+    <string name="settingMode">Настройки режима</string>
+    <string name="auto">Автоматически</string>
+    <string name="save">Сохранить</string>
+    <string name="hello">Привет</string>
+    <string name="infoServer">Информация о сервере</string>
+    <string name="nameServer">Имя сервера</string>
+    <string name="ipMain">IP или домен основного сервераr</string>
+    <string name="portMain">Порт основного сервера</string>
+    <string name="ipSafe">IP или домен запасного сервера</string>
+    <string name="portSafe">Порт запасного сервера</string>
+    <string name="ipGPS">Сервер GPS</string>
+    <string name="portGPS">Порт GPS</string>
+    <string name="work">Не работает</string>
+    <string name="infoDriver">Информация о водителе</string>
+    <string name="fName">Фамилия</string>
+    <string name="sName">Имя</string>
+    <string name="tName">Отчество</string>
+    <string name="license">Номер лицензии</string>
+    <string name="spd">Код налогоплательщика</string>
+    <string name="serialCar">ГосНомер автомобиля</string>
+    <string name="cityWork">Город в котором работает</string>
+    <string name="nameIDE">Название ИДС</string>
+    <string name="cityIDE">Город где ДС</string>
+    <string name="streetIDE">Улица ИДС</string>
+    <string name="houseIDE">Дом</string>
+    <string name="roomIDE">комната</string>
+    <string name="okpo">ОКПО ИДС</string>
+    <string name="yes">Да</string>
+    <string name="no">НЕТ</string>
+    <string name="cancel">Завершить</string>
+    <string name="tag">EMA_TAG</string>
+    <string name="profile">Профиль</string>
+    <string name="startwork">Начать работу</string>
+    <string name="buttonSettings">Настройки</string>
+    <string name="buttonExitProgram">Выход из ПО</string>
+    <string name="warning">ВНИМАНИЕ</string>
+    <string name="startWorkWith">НАЧАЛО РАБОБТЫ</string>
+    <string name="withoutTetATet">Без Tet-A-Tet</string>
+    <string name="withTetATet">С Tet-A-Tet</string>
+    <!--  added nex[t from helper -->
+    <string name="withTetATetAndOther">С Tet-A-Tet и другими</string>
+    <string name="title_activity_tetatet">TetatetActivity</string>
+    <string name="textDrvBalanceValue">0000.00</string>
+    <string name="zoneByHantCBoxTxt">Ручной выбор зон стоянок</string>
+    <string name="hello_world">Привет мир!</string>
+    <string name="title_activity_tet_main">StartTetFirstRegistrationActivity</string>
+    <string name="title_activity_not_registered_yet">NotRegisteredYetActivity</string>
+    <string name="title_activity_other_asssintant">OtherAsssintantActivity</string>
+    <string name="title_activity_gpsaccuracy_not_good">GPSAccuracyNotGoodActivity</string>
+    <string name="title_activity_window_fragment_controller_main">WindowFragmentControllerMainActivity</string>
+    <string name="title_activity_progres_bar_wait_responce">ProgresBarWaitResponceActivity</string>
+    <string name="title_activity_driver_taximetrectivity">DriverTaximetrectivity</string>
+    <string name="title_activity_on_cab_stand_price_driver">OnCabStandPriceDriverActivity</string>
+    <string name="title_activity_tet_on_cab_stand_price">TetOnCabStandPriceActivity</string>
+    <string name="title_activity_tet_on_cab_stand_options">TetOnCabStandOptions</string>
+    <string name="title_activity_tet_zone_list">TetZoneLIstActivity</string>
+    <string name="title_activity_tet_taximetre">TetTaximetreActivity</string>
+    <string name="title_activity_todo">TodoActivity</string>
+    <string name="title_activity_tet_first_jab_reg">TetFirstJabRegActivity</string>
+    <string name="title_activity_apdate_atda">ApdateATDAActivity</string>
+    <string name="title_activity_good_by">GoodByActivity</string>
+    <string name="title_activity_thenks_for_reg">ThenksForRegActivity</string>
+    <string name="location_Manager">Location Manage</string>
+    <string name="enable_GPS">Вы хотите включить GPS?</string>
+    <string name="title_activity_jabber_login">Регистрация на сервере</string>
+    ////////////////////////////////////// Russian Language ///////////////////////////////
+    <string name="exitButonText">Выход</string>
+    <string name="carLabelText">Гос номер авто</string>
+    <string name="loginLabelText">Позывной</string>
+    <string name="passwordLabelText">Пароль</string>
+    <string name="loginButtonText">Начать смену</string>
+    <string name="loginMessageTextLabel"></string>
+    <string name="jabberServerLabelText">Сервер</string>
+    <string name="jabberUserLabelText">Пользователь</string>
+    <string name="jabberPasswordLabelText">Пароль</string>
+    <string name="jabberDispLabelText">Линия</string>
+    <string name="orderOnPlaceButtonText">На месте</string>
+    <string name="callLabelText">Жду клиента: </string>
+    <string name="minimalLabelText">Посадка: </string>
+    <string name="kmLabelText">километр: </string>
+    <string name="minuteLabelText">Простой:</string>
+    <string name="totalKmLabelStaticText">Всего км:</string>
+    <string name="totalMinutesLabelStaticText">Всего олжидания:</string>
+    <string name="totalCostLabelStaticText">р.</string>
+    <string name="dispJabberAccount">tetatet</string>
+    <string name="txtdyndns">brd.tet-a-tet.mobi</string>
+    <string name="txtand">---</string>
+    <string name="txtSTATUS">Состояние</string>
+    <string name="txtSTOPS">Стоянки/Зоны</string>
+    <string name="txtCALL_TO_CLIENT">Позвонитиь заказчику</string>
+    //////////////////////////////////////////!! Russian finish //!!!!!!!!!!!!!!!!!!!!!!
+    <string name="titleLogin">Позывной</string>
+    <string name="titleJabFirstLoginTt">Это окно первой регистрации.\n После успешной регистрации выводится не будет</string>
+    <string name="login_uncorrect">Вводите правильно логин и сервер</string>
+    <string name="login_instruction">.\n\n Обычно в качестве логина используется позывной, а имя сервера выглядит примерно так: brd.tet-a-tet.mobi или так domainname.com </string>
+    <string name="server_uncorrect">Неверный сервер</string>
+    <string name="server_instruction">Введенный логин и ли пароль отклонен сервером\n\n Постарайтесь ввести сервер, логин и пароль без ошибок.\n Обычно сервер выглядит так: brd.tet-a-tet.mobi или так: brd.tet-a-tet.mobi:2456, или вот так: domainname.com</string>
+    <string name="noJabUser">Не введен пользователь</string>
+    <string name="noJabPasswd">Не введен пароль</string>
+    <string name="invalid_Input">Неверный ввод данных</string>
+    <string name="welcome_message">Welcome to Network Connect!\n Click FETCH to fetch the first 500 characters of raw HTML from www.google.com.</string>
+    <string name="fetch_text">Fetch</string>
+    <string name="clear_text">Очистить</string>
+    <string name="connection_error">Ошибка подключения.</string>
+    <string name="conSetting_error">Некоретный ввод данных \n Повторите ввод.</string>
+    <string name="inetIsOffOrFwIsOn">Ваш интернет выключен или включен firewal.</string>
+    <string name="title_activity_jabberd_ilogin">JabberdILoginActivity</string>
+    <string name="title_activity_dispatcher_soft_login">Регистрация в базе</string>
+    <string name="changeJabServerButtonText">Изменить сервер</string>
+    <string name="chPrefsButtonText">Изменить данные</string>
+    <string name="firstDsLoginButtonText">Зарегистрировать</string>
+    <string name="iHaveNotLoginButtonText">У меня еще нет учетной записи</string>
+    <string name="attemptToJabLogin">Идет попытка залогиниться</string>
+    <string name="noCountry">Не введена страна</string>
+    <string name="noTown">Не введен город</string>
+    <string name="phoneLabelText">Мой телефон</string>
+    <string name="title_activity_start_work">StartWorkActivity</string>
+    <string name="startWorkTitleText">Начать прием заказов</string>
+    <string name="changeSetting">Изменить настройки ATDA</string>
+    <string name="wilPayByOrder">Позаказно</string>
+    <string name="wilPayByOrderNight">В ночное время</string>
+    <string name="wilPayByShift">Посуточно</string>
+    <string name="wilPayByHourlu">Почасово</string>
+    <string name="ammountHoursText">часов</string>
+    <string name="choisePaymentText">Выбирите удобную оплату</string>
+    <string name="byOrderText">за каждый заказ</string>
+    <string name="byShiftTextField">За смену 24 часа</string>
+    <string name="byHourTextField">За каждый час</string>
+    <string name="youBalanseIs">Ваш баланс:</string>
+    <string name="gpsIsOFF">GPS недоступен.\n\n Вы не можете работать с Тет-А-Тет когда GPS выключен.\n\n Вы желаете перейти к настройке и включению GPS?</string>
+    <string name="gpsIsON">Gps доступен</string>
+    <string name="jabberd_service_stopped">Сервис приема сообщений от сервера остановлен.\n Перепустите приложение</string>
+    <string name="jabberd_service_started">Сервис приема сообщений от сервера запушен</string>
+    <string name="cheskDsSettingsRuning">Проверка настроек Tet-A-Tet</string>
+    <string name="carModel">Марка авто</string>
+    <string name="country">Страна</string>
+
+    <string-array name="country_arrays">
+        <item>Укажите страну</item> <!-- 0 -->
+        <item>Россия</item> <!-- 1 -->
+        <item>Украина</item> <!-- 2 -->
+        <item>Беларусь</item> <!-- 3 -->
+    </string-array>
+
+    <string-array name="city_ru_arrays">
+        <item>Укажите город</item> <!-- 0 -->
+        <item>Ижевск</item> <!-- 1 -->
+        <item>Ковров</item> <!-- 2 -->
+        <item>Тазовский</item> <!-- 3 -->
+        <item>Воткинск</item> <!-- 4 -->
+        <item>Шадки</item> <!-- 5 -->
+        <item>Череповец</item> <!-- 6 -->
+        <item>В. Устюг</item> <!-- 7 -->
+    </string-array>
+
+    <string-array name="city_ua_arrays">
+        <item>Укажите город</item> <!-- 0 -->
+        <item>Белая Церковь</item> <!-- 1 -->
+        <item>Бердичев</item> <!-- 2 -->
+        <item>Казатин</item> <!-- 3 -->
+        <item>Кельменцы</item> <!-- 4 -->
+        <item>Новомосковск</item> <!-- 5 -->
+        <item>Мироновка</item> <!-- 6 -->
+        <item>Мукачево</item> <!-- 7 -->
+        <item>Рубежное</item> <!-- 8 -->
+        <item>Симферополь</item> <!-- 9 -->
+        <item>Ужгород</item> <!-- 10 -->
+        <item>Житомир</item> <!-- 11 -->
+    </string-array>
+
+    <string-array name="city_by_arrays">
+        <item>Укажите город</item>
+        <item>Лепель</item> <!-- 1 -->
+    </string-array>
+
+    <string name="sendSMS">Отправить SMS</string>
+    <string name="candidatOrder">Заполните поля и отправьте SMS.\n С вами быстро свяжутся в рабочее время\n</string>
+    <string name="getDates">Получить данные</string>
+    <string name="noMyCity">Нет моего города</string>
+    <string name="aboutTetAtet">Что такое Tet-A-Tet?</string>
+    <string name="oderingSystem">Заказ такси Tet-A-Tet \n\n</string>
+    <string name="presentationTetAtet">Инновационный способ заказа такси, который позволяет заказчику и водителю, даже без этой программы, легко найти друг друга используя старую и привычную технологию телефооной связи.\n Tet-A-Tet передает звонок от заказчика в АТС напрямую водителю  в секторе или на стоянке без участия человека. \n\n Полностью отпадает потребность в диспетчере. Может работать без Java или Андроид, без GPS, без GPRS, радиостанций или PTT!</string>
+    <string name="closeWindow">Закрыть</string>
+    <string name="buttonDWantTetAtet">Хочу Tet-A-Tet в диспетчерскую</string>
+    <string name="tetInyouCityTitle">Tet-A-Tet для вашего города</string>
+    <string name="tetDillerText">Формы сотрудничества с «ТЕТ-А-ТЕТ»:\n\n
+1.Подключение ДС к «ТЕТ-А-ТЕТ» на оборудовани Тет-А-Тет (только для Украины)\n
+2.Совместная организация услуги «ТЕТ-А-ТЕТ» в вашем городе.\n
+3.Открытие представительства «ТЕТ-А-ТЕТ» в вашем городе.\n
+4.Покупка лицензии и оплата услуги установки «ТЕТ-А-ТЕТ» на ваше оборудование.\n
+5.Инвестирование от «ТЕТ-А-ТЕТ» в Вашу убыточную или малоприбыльную службу \n
+6.Разработка клиент-серверных приложений для такси, других мобильных сервисов и служб доставки\n
+7.Организация телефонии предприятий, офисов, служб, "горячих линий" и кол-центров на базе PBX FreeSwitch и Asterisk\n
+8.Организация мониторинг автотранспорта c визуализацией положения на карте OSM, Google, Yandex\n
+9.Обработка ваших звонков на оборудовании Тет-А-Tet\n
+10.Различное сочетание перечисленных форм. \n\n
+
+Требования к оборудованию для установки «ТЕТ-А-ТЕТ» на ваши серверы:\n\n
+- один-два сервера (основной/резервный):\n
+Требование:\n Пентиум 3 (или моложе) частотой от 1.1ГГц, RAM от 500 MГб HDD от 10 ГГб\n
+OS Linux семейства Debian, наличие Интернет на время установки.\n
+Oпционально: 8 портовый GSM шлюз или 7 поровый USB хаб с GSM модемами, FXS шлюз для городских линий медной пары, Однако, все это может не понадобится если Ваша телефония использует СИП транки от провайдеров связи\n\n
+
+-Копмьютер руководителя:\n
+Любой компьютер, нетбук или ноутбук с ОС Windows любого выпуска.\n\n</string>
+    <string name="contactInfo">Контактная информация</string>
+    <string name="startAsDriver">Подключиться как водитель</string>
+    <string name="contactInfoTitle">Работа с заказчиками\n</string>
+    <string name="contactInfoText">Жабко Олег Леонидович \n
+рабочее время: 8-16 UTC, 10-18 по Киеу, 11-19 по Москве\n
+Почтовый код 13312,\n
+Украина,\n
+город Бердичев, Житомирской области,\n
+Улица Лили Карастояновой\n
+дом 22\n
+сотвый телефон;+38(067)411-98-75\n
+сайт: http://tet-a-tet.mobi \n
+email1: mailto:olegzhabko@gmail.com \n
+email2:mailto:olegzhabko@mail.ru \n
+skype: oleg.zhabko \n</string>
+
+    <!-- Block pop-up messages -->
+    <string-array name="msg">
+        <!-- Id = 0 -->
+        <item> Do not fill in the fields </item>
+        <!-- Id = 1 -->
+        <item> This user is not found in the database </item>
+        <!-- Id = 2 -->
+        <item> Do you really want to quit?! </item>
+        <!-- Id = 3 -->
+        <item> nothing is selected </item>
+        <!-- Id = 4 -->
+        <item> Success </item>
+        <!-- Id = 5 -->
+        <item> No holder of this action </item>
+        <!-- Id = 6 -->
+        <item> This user can not be deleted </item>
+    </string-array>
+    <!-- End of the block pop-up messages -->
+    <string name="doOrder">Заказать</string>
+    <string name="low_accuracy_title">Недостаточная точность GPS</string>
+    <string name="low_minimum_acceptable">Минимально допустимо:</string>
+    <string name="accuracy_at_now">Сейчас точность:</string>
+    <string name="meter_short">\ м.</string>
+    <string name="fit_short">фут.</string>
+    <string name="wait_accuracy_OK">Подождите пока все спутники определятся и точность определения координат станет достаточной для удовлетворительного определения координат..</string>
+    <string name="start_without_gps">Работать без GPS</string>
+    <string name="exit_app">Закрыть приложение</string>
+    <string name="waitViaServerResponce">Ожидание ответа сервера</string>
+    <string name="jabListnerStarted">Обмен данными запущен</string>
+    <string name="allCarAmmount">\ Всего авто:</string>
+    <string name="allCarYouClassAmmount">\ Вашего типа:</string>
+    <string name="tetAtetTarif">ЕДИННЫЙ ТАРИФ\n ТЕТ-А-ТЕТ</string>
+    <string name="driverTarif">ТАРИФ ВОДИТЕЛЯ</string>
+    <string name="deliveryCar">Подача</string>
+    <string name="drvPosInfo">\ №</string>
+    <string name="startTaximetre">Старт</string>
+    <string name="priceByDistOutOfCity">(КМ за городом)</string>
+    <string name="priceDowntime">Минута простоя</string>
+    <string name="changeStop">Сменить район</string>
+    <string name="paymentOptions">Опции</string>
+    <string name="finishShift">Завершить смену</string>
+    <string name="shutDown">Выключение программы</string>
+    <string name="stopTaximetre">Остановить Таксометр</string>
+    <string name="drvStateFree">Свободен</string>
+    <string name="drvStateBusy">Занят</string>
+    <string name="kmInMinimal">км в минималке</string>
+    <string name="minsInMinimal">минут в минималке</string>
+    <string name="setZoneByHand">Указать район</string>
+    <string name="setZoneAutomatic">Районы автоматически</string>
+    <string name="personalTuning">Персональные настройки</string>
+    <string name="allTarifs">Весь тариф</string>
+    <string name="checkUpdateProgram">Проверить обновления</string>
+    <string name="errorWithRequest">Ошибка в запросе.\n Обратитесь в службу технической поддержки.</string>
+    <string name="versionOK">Обновление не требуется. \n Установлена самая свежая версия</string>
+</resources>

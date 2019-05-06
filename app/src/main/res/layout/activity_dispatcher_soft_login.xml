@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <TableRow
+        android:id="@+id/tableRow0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:id="@+id/phoneLabel"
+            android:text="@string/phoneLabelText"
+            android:layout_gravity="center"
+            android:gravity="right"
+            android:paddingRight="5dp"
+            android:autoText="false"></TextView>
+
+        <EditText
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:id="@+id/phoneField"
+            android:autoText="false"
+            android:text="0677777777"
+            android:singleLine="true">
+
+            <requestFocus></requestFocus>
+        </EditText>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:id="@+id/loginLabel"
+            android:text="@string/loginLabelText"
+            android:layout_gravity="center"
+            android:gravity="right"
+            android:paddingRight="5dp"
+            android:autoText="false"></TextView>
+
+        <EditText
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:id="@+id/loginField"
+            android:autoText="false"
+            android:text="9999"
+            android:singleLine="true">
+
+            <requestFocus></requestFocus>
+        </EditText>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:id="@+id/carLabel"
+            android:text="@string/carLabelText"
+            android:gravity="right"
+            android:paddingRight="5dp"></TextView>
+
+        <EditText
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:id="@+id/carField"
+            android:text="9999"></EditText>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:id="@+id/passwordLabel"
+            android:text="@string/passwordLabelText"
+            android:gravity="right"
+            android:paddingRight="5dp"></TextView>
+
+        <EditText
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:id="@+id/passwordField"
+            android:text="oleg"
+            android:singleLine="true"></EditText>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/exitButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/exitButonText"
+            android:textSize="20sp"
+            style="@style/taxoButton"></Button>
+
+        <Button
+            android:id="@+id/firstDsLoginButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/firstDsLoginButtonText"
+            android:textSize="20sp"
+            android:clickable="true"
+            style="@style/taxoButton"></Button>
+    </TableRow>
+
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/loginMessageText"
+        android:text="@string/loginMessageTextLabel"></TextView>
+
+    <TableRow
+        android:id="@+id/tableRow4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/chServerButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/changeJabServerButtonText"
+            android:textSize="20sp"
+            android:singleLine="true"
+            style="@style/taxoButton"></Button>
+
+        <Button
+            android:id="@+id/iHaveNotLogin"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/iHaveNotLoginButtonText"
+            android:textSize="20sp"
+            android:clickable="true"
+            style="@style/taxoButton"></Button>
+    </TableRow>
+
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/loginMessageText2"
+        android:text="@string/loginMessageTextLabel"></TextView>
+
+</TableLayout>

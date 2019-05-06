@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="mobi.tet_a_tet.atda"
+    android:installLocation="internalOnly"
+    android:versionCode="19"
+    android:versionName="0.1"
+    tools:ignore="UnusedAttribute" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.WRITE_SMS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <!-- <user-permission android:name="android.permission.READ_PHONE_STATE" /> -->
+    <!--
+      узнать программно номер телефона android код для юзания TelephonyManager tMgr = (TelephonyManager)mAppContext.getSystemService(Context.TELEPHONY_SERVICE);
+     String mPhoneNumber = tMgr.getLine1Number();
+    -->
+    <application
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:launchMode="standard" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".off_lline.OfflineMainActivity"
+            android:label="@string/app_name" />
+        <activity android:name=".other_assistant.OtherAsssintantActivity" />
+        <!-- Tet-A-Tet Activitys -->
+        <activity android:name=".tet_a_tet.StartTetFirstRegistrationActivity" />
+        <activity
+            android:name=".tet_a_tet.FirstRegistration.TetFirstRegistrationMainActivity"
+            android:label="@string/title_activity_tet_main" />
+
+        <service
+            android:name=".mutual.communications.JabberListenerService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity
+            android:name=".tet_a_tet.FirstRegistration.TetFirstRegistrationDispatcherSoftLoginActivity"
+            android:label="@string/title_activity_dispatcher_soft_login" />
+        <activity
+            android:name=".tet_a_tet.CheckDSsettingsActivity"
+            android:label="@string/title_activity_start_work" />
+        <activity
+            android:name=".tet_a_tet.DriverNormalWork.StartWorkActivity"
+            android:label="@string/title_activity_start_work" />
+        <activity
+            android:name=".tet_a_tet.FirstRegistration.NotRegisteredYetActivity"
+            android:label="@string/title_activity_not_registered_yet" />
+        <activity
+            android:name=".tet_a_tet.allerts_dialogs.WhotIsTetAtetActivity"
+            android:label="@string/title_activity_whot_is_tet_atet" />
+        <activity
+            android:name=".tet_a_tet.allerts_dialogs.IwantTetAtteActivity"
+            android:label="@string/title_activity_iwant_tet_atte" />
+        <activity
+            android:name=".tet_a_tet.allerts_dialogs.ContactInfoActivity"
+            android:label="@string/title_activity_contact_info" />
+        <activity android:name=".off_lline.StartOfLineSassistant" />
+        <activity android:name=".off_lline.loginActivity" />
+        <activity android:name=".off_lline.listViewActivity" />
+        <activity android:name=".off_lline.addOrChangeListViewActivity" />
+        <activity android:name=".off_lline.settingActivity" />
+        <activity android:name=".off_lline.workActivity" />
+        <!--
+        <service
+            android:name=".mutual.mut_ulils.gps.GPSListnerTracker"
+            android:enabled="true"
+            android:exported="true" />
+        <service
+            android:name=".mutual.mut_ulils.gps.MyService"
+            android:enabled="true"
+            android:exported="true" >
+        </service>
+        -->
+        <activity
+            android:name=".tet_a_tet.DriverNormalWork.GPSAccuracyNotGoodActivity"
+            android:label="@string/title_activity_gpsaccuracy_not_good" >
+        </activity>
+
+        <service
+            android:name=".mutual.mut_ulils.gps.GPSListnerZone"
+            android:enabled="true"
+            android:exported="true" >
+        </service>
+        <service
+            android:name=".mutual.mut_ulils.gps.GPSbyTimeListner"
+            android:enabled="true"
+            android:exported="false" >
+        </service>
+
+        <activity
+            android:name=".tet_a_tet.allerts_dialogs.ProgresBarWaitResponceActivity"
+            android:label="@string/title_activity_progres_bar_wait_responce" >
+        </activity>
+
+        <service
+            android:name=".tet_a_tet.controllers.ActivityControllerService"
+            android:enabled="true"
+            android:exported="true" >
+        </service>
+
+        <activity
+            android:name=".tet_a_tet.DriverNormalWork.activitis.TetZoneListActivity"
+            android:label="@string/title_activity_tet_zone_list" >
+        </activity>
+        <activity
+            android:name=".tet_a_tet.DriverNormalWork.activitis.TetTaximetreActivity"
+            android:label="@string/title_activity_tet_taximetre" >
+        </activity>
+        <activity
+            android:name=".off_lline.DriverTaximetreActivity"
+            android:label="@string/title_activity_driver_taximetrectivity" >
+        </activity>
+        <activity
+            android:name=".off_lline.OnCabStandPriceDriverActivity"
+            android:label="@string/title_activity_on_cab_stand_price_driver" >
+        </activity>
+        <activity
+            android:name=".tet_a_tet.DriverNormalWork.activitis.TetOnCabStandPriceActivity"
+            android:label="@string/title_activity_tet_on_cab_stand_price" >
+        </activity>
+        <activity
+            android:name=".tet_a_tet.DriverNormalWork.activitis.GoodByActivity"
+            android:label="@string/title_activity_good_by" >
+        </activity>
+        <activity
+            android:name=".tet_a_tet.DriverNormalWork.activitis.TetOnCabStandOptions"
+            android:label="@string/title_activity_tet_on_cab_stand_options" >
+        </activity>
+        <activity
+            android:name=".tet_a_tet.utils.UpdateATDAActivity"
+            android:label="@string/title_activity_apdate_atda" >
+        </activity>
+        <activity
+            android:name=".tet_a_tet.FirstRegistration.TetFirstJabRegActivity"
+            android:label="@string/title_activity_tet_first_jab_reg" >
+        </activity>
+        <activity
+            android:name=".tet_a_tet.FirstRegistration.ThenksForRegActivity"
+            android:label="@string/title_activity_thenks_for_reg" >
+        </activity>
+    </application>
+
+</manifest>

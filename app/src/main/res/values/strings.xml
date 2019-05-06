@@ -1,0 +1,383 @@
+<resources>
+    <string name="title_activity_whot_is_tet_atet">WhotIsTetAtetActivity</string>
+    <string name="title_activity_iwant_tet_atte">IwantTetAtteActivity</string>
+    <string name="title_activity_contact_info">ContactInfoActivity</string>
+    <string name="app_name">ATDA</string>
+    <string name="action_settings">Settings</string>
+    <string name="app_title">Tet-A-Tet with Customer</string>
+    <string name="title_activity_firs_start_page">Tet-a-Tet for Driver</string>
+    <string name="license_title">LICENSE\n</string>
+    <string name="currency">\ USD</string>
+    <string name="license_content">NOTE: The program is open source. Distributed free of charge. License fee is not required for use it. \n
+        \n
+
+You know and agree that: \n
+A) \n
+Co-owners of this program are Ltd. "Radiotaxi "Elite "", "Berdichev Electronic Service Taxi" and private person. \n
+B) \n
+
+The owners provide only two rights: \n
+1- to use without restrictions but accordance with law\n
+2- to freeware \n
+C) \n
+Owners forbid: \n
+1- decompile and/or modify code and Copirights \n\n
+
+        If you need source ask owners - program is OpenSource\n\n
+
+You understand and agree that the owners are not responsible for any damage that may be caused as a result of the failure program or if program is not work. \n \n
+you will be using this program at your own risk\n
+
+You undertake to notify the owners of the cases, when for this program or for use it, anyone require a fee or has been violated by this agreement. \n \n
+Donation to the manufacturer for the development of the program is welcomed. \n
+
+ Contact information: \n \n
+site: http: //tet-a-tet.mobi \n
+e-mail: support@tet-a-tet.mobi \n
+phone: +38 (04143) 2-32-97 \n
+cellphone: +38 (067) 411-98-75 \n</string>
+
+    <string name="title_activity_firs_start_tet_a_tet">Tet-a-Tet for Driver</string>
+    <string name="license_title_tet_a_tet">УСЛОВИЯ Tet-A-Tet\n</string>
+    <string name="licence_tet_a_tet">
+
+Соглашаясь с настоящими условиями, Вы подтверждаете:\n
+А)\n
+1. У вас есть подзарядный адаптер питания для исключения разрядки батареи вашего мобильного устройство, на котором будет использоваться данная программа.\n
+2. Для пользования данной программой во время движения автомобиля у Вас есть устройство «Свободные руки» или устройство «Громкая связь».\n
+3. У вас есть все законные основания осуществлять перевозку пассажиров..\n
+4. Вами получены все необходимые данные для подключения к серверу Тет-А-Тет\n
+5. У Вас имеются все данные для подключения к Горячей линии.\n
+Б)\n
+
+Вы обязуетесь выполнять ПЯТЬ ПРАВИЛ :\n
+1. При пользовании услугой Тет-А-Тет Ваш телефон не может быть «Занят»\n
+2. Уезжая «От бордюра» Вы всегда снимаетесь с очереди.\n
+3. Завершая работу Вы всегда закрываете смену\n
+4.По любому непонятному событию от АТС или другим причинам, вы всегда перезваниваете заказчику.\n
+5. Вы не передаете свою «рабочую симкарту» другим людям.\n
+\n
+Вы обязуетесь придерживаться ПЯТЬ ПРАВИЛ ОБЩЕНИЯ:\n
+1. Вы всегда представляетесь своим именем или именем и отчеством.\n
+2. При звонке заказчика никогда не делайте паузу после «Ало», сразу отвечайте «Ало, Здравствуйте. Водитель свободного автомобиля в городе «Энске» саое имя или имя и отчество»\n
+3. В конце разговора о заказе вы всегда называете:\n
+-цвет автомобиля\n
+-его марку\n
+-время через которое прибудете\n
+-обязательно повторяете адрес заказчика.\n
+4.Вы всегда спокойно разъясняете ошибившемуся заказчику правильный порядок осуществления заказа. \n
+5.Вы всегда заменяете слово «Оплатить»  и его синонимы словосочетанием «Компенсировать затраты».\n
+Например:\n
+Если Вы готовы КОМПЕНСИРОВАТЬ мои дополнительные ЗАТРАТЫ на подачу автомобиля, тогда я подъеду к Вам несмотря на большое расстояние. Сумма КОМПЕНСАЦИИ составит № денег к тарифу.\n</string>
+
+    <string name="license_check_box_txt">I have read the agreement</string>
+    <string name="no_agree">Not agree</string>
+    <string name="am_agree">I am agree</string>
+    <string name="TitleLogin">Login</string>
+    <string name="titleCallsign">Callsign</string>
+    <string name="password">Password</string>
+    <string name="local">Local</string>
+    <string name="savePassword">Save Password</string>
+    <string name="ok">OK</string>
+    <string name="user_window">User\'s Window</string>
+    <string name="text_View">Text View</string>
+    <string name="tarif">Price</string>
+    <string name="posadka">Reserve</string>
+    <string name="minCost">Min Cost</string>
+    <string name="kmCost">Price fo km</string>
+    <string name="minuteCostStay">Stay by time price</string>
+    <string name="minKmCost">How match KM included in minimal pfyment</string>
+    <string name="minuteMinCost">Minutes in Min Cost</string>
+    <string name="countryCost">Price out of town in one way</string>
+    <string name="countryBackCost">Price out of town two way diractions</string>
+    <string name="minSpeed">Minimal wate speed</string>
+    <string name="add">Add</string>
+    <string name="settings">Settings</string>
+    <string name="drivers">Drivers</string>
+    <string name="serverConnect">Server for Connect</string>
+    <string name="mode">Mode</string>
+    <string name="polugons">Polugons of sectors</string>
+    <string name="tariff">Tarifs</string>
+    <string name="exit">Еxit</string>
+    <string name="polygonInfo">Polygon Info</string>
+    <string name="namePolygon">Polygon name</string>
+    <string name="polygonValue">Polygon Value</string>
+    <string name="listDrivers">List Drivers</string>
+    <string name="change">Change</string>
+    <string name="delete">Delete</string>
+    <string name="settingMode">Setting Mode</string>
+    <string name="auto">Auto</string>
+    <string name="save">Save</string>
+    <string name="hello">hello</string>
+    <string name="infoServer">InfoServer</string>
+    <string name="nameServer">Name Server</string>
+    <string name="ipMain">IP or domain name of Main server</string>
+    <string name="portMain">Port of Main server</string>
+    <string name="ipSafe">IP or Domain of reserve server</string>
+    <string name="portSafe">Port of reserve server</string>
+    <string name="ipGPS">GPS server</string>
+    <string name="portGPS">Port GPS</string>
+    <string name="work">Is not work</string>
+    <string name="infoDriver">Driver info</string>
+    <string name="fName">First Name</string>
+    <string name="sName">Sure Name</string>
+    <string name="tName">Midle Name</string>
+    <string name="license">License Number</string>
+    <string name="spd">IRC number</string>
+    <string name="serialCar">Gov Num Car</string>
+    <string name="cityWork">City Work</string>
+    <string name="nameIDE">IDS name</string>
+    <string name="cityIDE">cityIDE</string>
+    <string name="streetIDE">street IDE</string>
+    <string name="houseIDE">house</string>
+    <string name="roomIDE">room</string>
+    <string name="okpo">okpo</string>
+    <string name="yes">Yes</string>
+    <string name="no">NO</string>
+    <string name="cancel">CANCEL</string>
+    <string name="tag">EMA_TAG</string>
+    <string name="profile">profile</string>
+    <string name="startwork">start work</string>
+    <string name="buttonSettings">Settings</string>
+    <string name="buttonExitProgram">Exit Program</string>
+    <string name="warning">WORNING</string>
+    <string name="startWorkWith">START WORK</string>
+    <string name="withoutTetATet">With out Tet-A-Tet</string>
+    <string name="withTetATet">With Tet-A-Tet</string>
+    <!--  added nex[t from helper -->
+    <string name="withTetATetAndOther">Tet-A-Tet and Other</string>
+    <string name="title_activity_tetatet">TetatetActivity</string>
+    <string name="textDrvBalanceValue">0000.00</string>
+    <string name="zoneByHantCBoxTxt">Choise Zone/stop by hand</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_tet_main">StartTetFirstRegistrationActivity</string>
+    <string name="title_activity_not_registered_yet">NotRegisteredYetActivity</string>
+    <string name="title_activity_other_asssintant">OtherAsssintantActivity</string>
+    <string name="title_activity_gpsaccuracy_not_good">GPSAccuracyNotGoodActivity</string>
+    <string name="title_activity_window_fragment_controller_main">WindowFragmentControllerMainActivity</string>
+    <string name="title_activity_progres_bar_wait_responce">ProgresBarWaitResponceActivity</string>
+    <string name="title_activity_driver_taximetrectivity">DriverTaximetrectivity</string>
+    <string name="title_activity_on_cab_stand_price_driver">OnCabStandPriceDriverActivity</string>
+    <string name="title_activity_tet_on_cab_stand_price">TetOnCabStandPriceActivity</string>
+    <string name="title_activity_tet_on_cab_stand_options">TetOnCabStandOptions</string>
+    <string name="title_activity_tet_taximetre">TetTaximetreActivity</string>
+    <string name="title_activity_tet_zone_list">TetZoneLIstActivity</string>
+    <string name="title_activity_apdate_atda">ApdateATDAActivity</string>
+    <string name="title_activity_tet_first_jab_reg">TetFirstJabRegActivity</string>
+    <string name="title_activity_thenks_for_reg">ThenksForRegActivity</string>
+    <string name="title_activity_todo">TodoActivity</string>
+    <string name="title_activity_good_by">GoodByActivity</string>
+    <string name="location_Manager">Location Manage</string>
+    <string name="enable_GPS">Would you like to enable GPS?</string>
+    <string name="title_activity_jabber_login">Entry to server</string>
+    ////////////////////////////////////// Russian Language ///////////////////////////////
+    <string name="exitButonText">Exit</string>
+    <string name="carLabelText">Car gov num</string>
+    <string name="loginLabelText">Callsign</string>
+    <string name="passwordLabelText">Password</string>
+    <string name="loginButtonText">Start shift</string>
+    <string name="loginMessageTextLabel"></string>
+    <string name="jabberServerLabelText">Server</string>
+    <string name="jabberUserLabelText">User</string>
+    <string name="jabberPasswordLabelText">Paswd</string>
+    <string name="jabberDispLabelText">Dispatcher</string>
+    <string name="orderOnPlaceButtonText">In place</string>
+    <string name="callLabelText">Serve: </string>
+    <string name="minimalLabelText">Initial payment: </string>
+    <string name="kmLabelText">Kilometer: </string>
+    <string name="minuteLabelText">Простой:</string>
+    <string name="totalKmLabelStaticText">Mileage</string>
+    <string name="totalMinutesLabelStaticText">General expectations</string>
+    <string name="totalCostLabelStaticText">р.</string>
+    <string name="dispJabberAccount">tetatet</string>
+    <string name="txtdyndns">brd.tet-a-tet.mobi</string>
+    <string name="txtand">---</string>
+    <string name="txtSTATUS">Condition</string>
+    <string name="txtSTOPS">Еaxis</string>
+    <string name="txtCALL_TO_CLIENT">Call customer</string>
+    //////////////////////////////////////////!! Russian finish //!!!!!!!!!!!!!!!!!!!!!!
+    <string name="titleLogin">Login</string>
+    <string name="titleJabFirstLoginTt">This is onetime regidtration window.\n</string>
+    <string name="login_uncorrect">Add correct Login and ServerName</string>
+    <string name="login_instruction">.\n\n As practible Login is Driver collsign. and ServerName looks like brd.tet-a-tet.mobi or domainname.com </string>
+    <string name="server_uncorrect">Server Uncorrect</string>
+    <string name="server_instruction">You Login or password pending\n\n Add correct server and passwoed string.\n As practible this looks like brd.tet-a-tet.mobi or brd.tet-a-tet.mobi:2456 or looks like as domainname.com</string>
+    <string name="noJabUser">No user </string>
+    <string name="noJabPasswd">No password</string>
+    <string name="invalid_Input">Invalid Input</string>
+    <string name="welcome_message">Welcome to Network Connect!\n Click FETCH to fetch the first 500 characters of raw HTML from www.google.com.</string>
+    <string name="fetch_text">Fetch</string>
+    <string name="clear_text">Clear</string>
+    <string name="connection_error">Connection error.</string>
+    <string name="conSetting_error">Uncorrect entr fields .</string>
+    <string name="inetIsOffOrFwIsOn">Yours Internet switchOFF or firewal is runing</string>
+    <string name="title_activity_jabberd_ilogin">JabberdILoginActivity</string>
+    <string name="title_activity_dispatcher_soft_login">DispatcherSoftLoginActivity</string>
+    <string name="changeJabServerButtonText">Change Server</string>
+    <string name="chPrefsButtonText">Chande Preference</string>
+    <string name="firstDsLoginButtonText">Reg Me</string>
+    <string name="iHaveNotLoginButtonText">I haven\'t Login yet</string>
+    <string name="attemptToJabLogin">Attempt to Login running</string>
+    <string name="noCountry">No Country Enter</string>
+    <string name="noTown">No Town Enter</string>
+    <string name="phoneLabelText">Phone number</string>
+    <string name="title_activity_start_work">StartWorkActivity</string>
+    <string name="startWorkTitleText">To begin Driver Shift</string>
+    <string name="changeSetting">Change ATDA Seting</string>
+    <string name="wilPayByOrder">By order</string>
+    <string name="wilPayByOrderNight">Night time</string>
+    <string name="wilPayByShift">By Shift</string>
+    <string name="wilPayByHourlu">Hourly</string>
+    <string name="ammountHoursText">Hours</string>
+    <string name="choisePaymentText">Select payment today</string>
+    <string name="byOrderText">For each order</string>
+    <string name="byShiftTextField">Рer day 24H</string>
+    <string name="byHourTextField">Per hour</string>
+    <string name="youBalanseIs">Your\'s balance:</string>
+    <string name="gpsIsOFF">GPS is not enabled.\n\n You can not work with the Tet-A-Tet when GPS is OFF.\n\n Do you want to go to settings menu?</string>
+    <string name="gpsIsON">Gps Enabled</string>
+    <string name="jabberd_service_stopped">Message Receiver service stopped</string>
+    <string name="jabberd_service_started">Message Receiver service started</string>
+    <string name="cheskDsSettingsRuning">Chesk Setting runing</string>
+    <string name="carModel">Car model</string>
+    <string name="country">Country</string>
+
+    <string-array name="country_arrays">
+        <item>Select Country</item>
+        <item>Rusia</item>
+        <item>Ukraine</item>
+        <item>Belarus</item>
+    </string-array>
+
+    <string-array name="city_ru_arrays">
+        <item>Select City</item>
+        <item>Cherepovets</item>
+        <item>Izhevsk</item>
+        <item>Kovrov</item>
+        <item>Tazovsky</item>
+        <item>Votkinsk</item>
+        <item>Shadki</item>
+        <item>V. Ustyug</item>
+    </string-array>
+
+
+    <string-array name="city_ua_arrays">
+        <item>Select City</item>
+        <item>Belay Cerkov</item>
+        <item>Berdichev</item>
+        <item>Kazatin</item>
+        <item>Kelmentcy</item>
+        <item>Novomoskovsk</item>
+        <item>Mironovka</item>
+        <item>Mucachevo</item>
+        <item>Rubezhnoe</item>
+        <item>Simferopol</item>
+        <item>Uzhgorod</item>
+        <item>Zhitomir</item>
+    </string-array>
+
+    <string-array name="city_by_arrays">
+        <item>Select City</item>
+        <item>Lepel</item>
+    </string-array>
+
+
+    <string name="sendSMS">Send SMS</string>
+    <string name="candidatOrder">Fill out the form and send SMS.\n Contact with you will be quickly established at working hours.\n</string>
+    <string name="getDates">Get dates</string>
+    <string name="noMyCity">No my city</string>
+    <string name="aboutTetAtet">Whot is Tet-A-Tet</string>
+    <string name="oderingSystem">Taxi ordering Tet-A-Tet</string>
+    <string name="presentationTetAtet">This is an innovative method to order a taxi cab, which allows the customer and driver, to find each other using the old and familiar technology telephony connection. \n Tet-A-Tet  make call transfers from a customer to the driver witch are ivthe sector or at the parking lot without human assistant. \n \n Completely not need for dispatcher personal.\n It can work without Java or Android mobile App, without GPS, without GPRS, radio or PTT, without Internet!</string>
+    <string name="closeWindow">Close</string>
+    <string name="buttonDWantTetAtet">I want Tet-A-Tet for dispatch</string>
+    <string name="tetInyouCityTitle">Tet-A-Tet In your\'s city</string>
+    <string name="tetDillerText">Bussiness with "Tet-A-Tet»: \n \n
+1. Connection Dispatcher Room to the 'Tet-A-Tet " using our equipment (for Ukraine only) \n
+2.Cooperation for make up "Tet-A-Tet" services in your\s city or country. \n
+3.Representation "Tet-A-Tet" in your\' city or country. \n
+4.Pay for license and installation "Tet-a-Tet" on your\'s servers. \n
+5.Investing from "Tet-A-Tet" to low-profit or unprofitable your\'s taxi cab service \n
+6.Any combination of these forms. \n\n
+
+Hardware requirements for installing "Tet-A-Tet" on your server: \n \n
+- One or two servers (main / recerve): \n
+Requirements: Pentium 3 (or later) with frequency from 1.1G, RAM from 500MGb, HDD from 10 Gb\n
+OS Linux Debian family, Internet during the installation. \n
+Option: 8 port GSM gateway or 7 port USB hub with GSM modems, FXS gateway to the city-pair copper lines. However, all this not be necessary if your use SIP trunks from telephone communications providers \n \n
+
+-Director PC: \n
+Any PC, netbook or laptop running Windows any release with beginning from Win95\n\n.</string>
+    <string name="contactInfo">Contact Info</string>
+    <string name="startAsDriver">Start as taxi cab driver</string>
+    <string name="contactInfoTitle">Customer Service</string>
+    <string name="contactInfoText">Zhabko Oleg \n
+house: 22 \n
+street: Lily Karastayanava\n
+province: Zhitomir\n
+city: Berdichev\n
+country: Ukrainе \n
+Zip Code: 13312\n\n
+cellular phone;+38(067)411-98-75\n
+site: http://tet-a-tet.mobi \n
+email1: mailto:olegzhabko@gmail.com \n
+email2:mailto:olegzhabko@mail.ru \n
+skype: oleg.zhabko \n</string>
+
+    <!-- Block pop-up messages -->
+    <string-array name="msg">
+        <!-- Id = 0 -->
+        <item> Do not fill in the fields </item>
+        <!-- Id = 1 -->
+        <item> This user is not found in the database </item>
+        <!-- Id = 2 -->
+        <item> Do you really want to quit?! </item>
+        <!-- Id = 3 -->
+        <item> nothing is selected </item>
+        <!-- Id = 4 -->
+        <item> Success </item>
+        <!-- Id = 5 -->
+        <item> No holder of this action </item>
+        <!-- Id = 6 -->
+        <item> This user can not be deleted </item>
+    </string-array>
+    <!-- End of the block pop-up messages -->
+    <string name="doOrder">Do order for</string>
+    <string name="low_accuracy_title">Low accuracy</string>
+    <string name="low_minimum_acceptable">Minimum acceptable:</string>
+    <string name="accuracy_at_now">Now accuracy is:</string>
+    <string name="meter_short">\ m.</string>
+    <string name="fit_short">\ f.</string>
+    <string name="wait_accuracy_OK">Wait until all the satellites will be identified and positioning accuracy will be acceptable for use.</string>
+    <string name="start_without_gps">Start without GPS</string>
+    <string name="exit_app">Close APP</string>
+    <string name="waitViaServerResponce">Wait via server responce</string>
+    <string name="jabListnerStarted">Data Receiver is ON</string>
+    <string name="allCarAmmount">\ All car:</string>
+    <string name="allCarYouClassAmmount">\ You type:</string>
+    <string name="tetAtetTarif">Tet-A-Tet Price</string>
+    <string name="driverTarif">Price seted by driver</string>
+    <string name="deliveryCar">Bringin carr</string>
+    <string name="drvPosInfo">\ №</string>
+    <string name="priceByDistOutOfCity">Distance out city</string>
+    <string name="priceDowntime">Price dowtime</string>
+    <string name="startTaximetre">Start</string>
+    <string name="changeStop">Change area</string>
+    <string name="paymentOptions">Options</string>
+    <string name="finishShift">Shift finish</string>
+    <string name="shutDown">Closing program</string>
+    <string name="stopTaximetre">Stop Taximetre</string>
+    <string name="drvStateFree">Free</string>
+    <string name="drvStateBusy">Busy</string>
+    <string name="kmInMinimal">minimal km pay</string>
+    <string name="minsInMinimal">minimal mins pay</string>
+    <string name="setZoneByHand">Choise zone</string>
+    <string name="setZoneAutomatic">Zone auto</string>
+    <string name="personalTuning">Personal tuning</string>
+    <string name="allTarifs">Full price list</string>
+    <string name="checkUpdateProgram">Chesk Updates</string>
+    <string name="errorWithRequest">ERROR with request\n Ask support about error.</string>
+    <string name="versionOK">No update is required. \ n The latest version Installed</string>
+
+</resources>
+
